@@ -16,10 +16,14 @@
 
 * Remove the warp location called `NAME`
 
-## Running it
+## Building/Running it locally
 
 * Install [Stack](https://docs.haskellstack.org/en/stable/README/)
 * Pull down repo `git clone https://github.com/jaredramirez/teleport.git`
 * `cd teleport`
 * `./scripts/build.sh` (this make take a while since it will download all of this project's dependecies)
 * `./scripts/run.sh`
+
+## Other things
+
+While the idea for this project is a direct copy from https://bollu.github.io/teleport/, this implementation is unique and unrelated to bollu's project
